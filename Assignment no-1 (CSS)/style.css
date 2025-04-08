@@ -1,0 +1,126 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+.mart-headind {
+    background-color: lightgray;
+    border-bottom: 3px solid blue;
+
+}
+
+.list-items {
+    background-color: rgb(103, 103, 220);
+    padding: 0.3px;
+
+}
+
+.list-items a {
+    color: white;
+
+}
+
+.product-search {
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.product-search>button {
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.3rem;
+    cursor: pointer;
+}
+
+.product-search>input {
+    border: 2px solid #ff7b00;
+    padding: 0.3rem 0.3rem;
+    outline: none;
+}
+
+.product-table caption {
+    background-color: rgb(47, 171, 47);
+    color: white;
+}
+
+.product-table thead {
+    background-color: green;
+    color: white;
+}
+
+.product-table tbody td {
+    border: 1px solid rgb(62, 181, 62);
+
+    box-shadow: 0 0 10px rgba(23, 163, 23, 0.4)
+}
+
+.product-table button {
+    background-color: rgb(75, 229, 75);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* .form-wrapper fieldset legend{
+    background-color: rgb(187, 63, 187);
+    
+} */
+.form-wrapper form fieldset {
+    border: 2px solid rgb(248, 139, 248);
+    box-shadow: 0 0 8px rgba(128, 0, 128, 0.3);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.form-wrapper form fieldset legend {
+    background-color: rgb(212, 14, 212);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.btn-color {
+    background-color: rgb(212, 14, 212);
+    color: white;
+    border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.table-wrapper th {
+    background-color: red;
+    color: white;
+    border: 1px solid salmon;
+}
+.table-wrapper table {
+    border: 1px solid rgb(214, 77, 62);
+    box-shadow: 0 0 10px rgba(210, 41, 41, 0.979)
+
+}
+.table-wrapper tfoot{
+    background-color:   pink;
+    
+}
+.address-section address {
+    background-color: rgb(73, 67, 67);
+    color: white;
+}
+.link-section{
+    background-color: rgb(73, 67, 67);
+    color: white;
+}
+.link-section a {
+    color: white;
+}
