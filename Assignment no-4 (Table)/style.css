@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.main_heading {
+
+    text-align: center;
+    margin: 20px;
+
+}
+
+.table_section {
+    width: 100%;
+
+}
+
+.table_content {
+
+    width: 65%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+
+}
+
+.table_content th {
+    background-color: darkgrey;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 9px;
+
+}
+
+.even_row {
+    background-color: lightblue;
+
+}
+
+.odd_row:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.even_row,
+.odd_row {
+    font-weight: 600;
+}
