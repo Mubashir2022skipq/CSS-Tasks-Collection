@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    width: 30%;
+
+    /* border: 1px solid black; */
+}
+
+.logo_olx {
+
+    height: 2.2rem;
+    width: 3.6rem;
+    color: #002f34;
+}
+
+.logo_link {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    text-decoration: none;
+}
+
+.svg_logo {
+    background: linear-gradient(180deg, rgba(0, 47, 52, .16), rgba(0, 47, 52, .01) 81.77%, rgba(0, 47, 52, .01));
+    border-radius: 50%;
+    height: 3%;
+    padding: 0.4rem;
+    width: 2.5rem;
+}
+
+.logo_heading {
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #002f34;
+
+
+}
+
+.location_n_search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    padding: 0.3rem;
+    /* border: 1px solid red; */
+}
+
+.location {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    gap: 0.1rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(143, 143, 143);
+    height: 3rem;
+}
+
+input {
+    border: none;
+    font-size: large;
+}
+
+.loc {
+    width: 25px;
+    border: none;
+    outline: none;
+    padding: 1px;
+}
+
+.search {
+    border: 1px solid rgb(143, 143, 143);
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 1rem;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.s_icon {
+    width: 40px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    /* padding-right:3rem; */
+    padding: 0.3rem;
+    color: white;
+    background-color: #002f34;
+    border-end-end-radius: 6px;
+}
+
+.btn_loginsell {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    position: relative;
+    right: 2rem;
+    width: 9rem;
+    height: 3rem;
+    /* border: 1px solid black; */
+}
+
+.login_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+
+    width: 4rem;
+    height: 3rem;
+}
+
+.login_btn>a {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #002f34;
+}
+
+.sell_btn {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 3rem;
+
+}
+
+.sell_btn>button {
+    width: 66px;
+    height: 30px;
+    border-radius: 33%;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #002f34;
+
+}
+
+.horizontal_line>hr {
+    color: lightgrey;
+}
+
+.list_item {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+    /* margin-right: auto;  */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* justify-items: start; */
+    /* border: 2px solid pink; */
+}
+
+.lst_itm {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    column-gap: 1.3rem;
+    font-size: 1rem;
+    font-weight: 200;
+    /* justify-items: center; */
+    /* border: 2px solid purple; */
+    width: 60rem;
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    list-style-type: none;
+    padding: 0.5rem;
+    /* padding-left: 0; */
+}
+
+.lst {
+    color: rgb(90, 88, 88);
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 0.9rem;
+
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem;
+    /* height: 100%; */
+    /* height: 100%; */
+    /* border: 2px solid aqua; */
+}
+
+.c_heading {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 100%; */
+
+    /* border: 2px solid rgb(132, 68, 68); */
+    width: fit-content;
+}
+
+.c_logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.c_logos2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.image_h {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid darkolivegreen; */
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.3rem;
+}
+
+.image_h>img {
+    width: 60%;
+}
+
+.card_s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: baseline; */
+
+    margin: 0 20px;
+    /* border: 1px solid black; */
+   
+    
+}
+.top_h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* margin-left: 12px; */
+    flex-wrap: wrap;
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+
+}
+.top_h > h2{
+    margin-left: 12px;
+}
+.right_h > a{
+    text-decoration: none;
+    color: rgb(106, 188, 215);
+    font-size: 1.2rem;
+    margin-right: 12px;
+    font-weight: bolder;
+}
+.card_r{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 9px;
+
+}
+.card_m{
+    display: flex;
+    flex-direction: column;
+    /* width: 320px;    */
+    width: 310px;
+    height: auto;
+    border: 15px solid purple; 
+
+    /* padding: 20px; */
+    border: 1px solid #ccc;
+    /* border-radius: 10px; */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+
+}
+.imge{
+    /* width: 100%; */
+    
+    /* border: 3px solid goldenrod; */
+
+}
+.imge > img{
+    width: 100%;        
+  height: 200px;      
+  object-fit: cover;  
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem;
+}
+.logo > svg{
+    width: 24px;   
+  height: 24px;
+}
+.h_description{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.9rem;
+}
+.h_description > p {
+    font-size: 1.2rem;
+}
+.location_d{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    color:rgb(122, 120, 120);
+    padding: 0.9rem;
+}
