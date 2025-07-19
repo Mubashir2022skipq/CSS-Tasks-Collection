@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.logo_image{
+    width: 9rem;
+
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    font-style: Space Grotesk;
+
+}
+.btn_request{
+ padding: 0.6rem;
+ border-radius: 0.5rem;
+ background-color: transparent;
+ text-align: center;
+ outline-color: rgb(63, 62, 62);
+}
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    /* width: 20rem; */
+    height: 35rem  ;
+    
+    /* column-gap: 5rem; */
+
+    
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 30rem;
+}
+
+.btn_book{
+    padding: 0.6rem;
+ border-radius: 0.5rem;
+ width: 9rem;
+ height: 3rem;
+ background-color:#191A23;
+color: white;
+border: none;
+border-radius: 0.9rem;
+ text-align: center;
+
+}
+.heading_hero{
+    
+
+}
+
+/* .hero_img{
+    width: 0.1rem;
+} */
+ .img_hero{
+    width: 25rem;
+    object-fit: fill;
+ }
+.hero_content p {
+    white-space: pre-line;  
+}
+
+.sponser_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 79rem; */
+    /* border: 1px solid black; */
+    padding: 0.3rem;
+    
+}
+.company_logos{
+    width: 6rem;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+.service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.service_section{
+   
+
+}
+.heading_n_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 50rem;
+    
+    height: 9rem;
+    /* border: 1px solid black; */
+   
+    padding: 0.5rem;
+    margin-left: 0.9rem;
+}
+.heading_service{
+    background-color:  #B9FF66;
+}
+.paragraph_service{
+    
+}
+.card_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 25rem;
+}
